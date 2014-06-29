@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #34495e;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  color: #bdc3c7;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-container {
+  float: left;
+  width: 30%;
+  display: inline-block;
+}
+
+nav.download-nav {
+  text-align: middle;
+}
+
+nav.download-nav ul {
+  width: 470px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: hidden;
+  display: block;
+}
+
+nav.download-nav li {
+  display: inline;
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+nav.download-nav a:link, a:visited {
+  display: block;
+  padding: 6px;
+  width: 120px;
+  color: white;
+  text-align: center;
+  border: 2px solid #fff;
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.code {
+  font-family: monospace, monospace;
+  font-size: 1em;
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+}
+
+span {
+  color:white;
+  font-style: italic;
+}
